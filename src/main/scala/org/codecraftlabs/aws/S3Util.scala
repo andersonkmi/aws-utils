@@ -8,11 +8,12 @@ import com.amazonaws.services.s3.model.{ObjectMetadata, PutObjectRequest}
 
 object S3Util {
   private val S3Separator: String = "/"
+
   private val s3Service = AmazonS3ClientBuilder.standard.build
 
   def downloadObject(bucket: String, key: String, local: String = "."): Unit = {
-    val o = s3Service.getObject(bucket, key)
-    val s3is = o.getObjectContent
+    val s3Object = s3Service.getObject(bucket, key)
+    val s3is = s3Object.getObjectContent
     val tokens = key.split(S3Separator)
 
     val path = new File(local)
