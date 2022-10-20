@@ -10,7 +10,7 @@ tired of copying and pasting the same bits of code, I realized it was about time
 
 ## 2. Description
 
-Some of the classes found here are related to:
+Some classes found here are related to:
 - S3 download/upload objects
 
 ## 3. Build and deploy
