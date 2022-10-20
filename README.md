@@ -17,7 +17,7 @@ Some of the classes found here are related to:
 
 In order to build and deploy this library, perform the following commands:
 
-```scala
+```bash
 $ sbt compile
 $ sbt publishLocal
 ```
