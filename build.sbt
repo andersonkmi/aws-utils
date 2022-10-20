@@ -15,6 +15,6 @@ scalaVersion := "2.12.10"
 resolvers += Classpaths.typesafeReleases
 
 libraryDependencies ++= Seq(
-  "com.amazonaws" % "aws-java-sdk-s3" % "1.11.723",
+  "com.amazonaws" % "aws-java-sdk-s3" % "1.12.322",
   scalaTest % Test
 )
