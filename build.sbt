@@ -10,7 +10,7 @@ val appName = "aws-utils"
 
 version := appVersion
 
-scalaVersion := "2.12.10"
+scalaVersion := "2.13.10"
 
 resolvers += Classpaths.typesafeReleases
 
